@@ -3,16 +3,16 @@ while true do
 	pcall(function()
 		local player = game:GetService("Players").LocalPlayer.Character
 		if player.EquippedTool.Value == "AK47" then
-			player.Gun.Shoot.SoundId = "rbxassetid://168436671"
+			player.Gun.Shoot.SoundId = "rbxassetid://1112730119"
 		end
 
 		if player.EquippedTool.Value == "M4A1" then
-			player.Gun.SShoot.SoundId = "rbxassetid://6564247176"
+			player.Gun.SShoot.SoundId = "rbxassetid://1112865134"
 
 		end
 
         if player.EquippedTool.Value == "Glock" then
-			player.Gun.Shoot.SoundId = "rbxassetid://6716205153"
+			player.Gun.Shoot.SoundId = "rbxassetid://471706299"
 
 		end
 
@@ -76,7 +76,7 @@ while true do
 		end
 
 		if player.EquippedTool.Value == "Scout" then
-			player.Gun.Shoot.SoundId = "rbxassetid://2476571739"
+			player.Gun.Shoot.SoundId = "rbxassetid://1112858108"
             player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
             player.Gun.Zoom.PlaybackSpeed = 1
 		end
